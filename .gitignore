@@ -1,0 +1,4 @@
+build/*
+dist/*
+soiltexture.egg-info/*
+__pycache__/*
