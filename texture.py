@@ -1,11 +1,14 @@
 from matplotlib import path
+import os
+
+apiPath = os.path.abspath(os.path.join(os.path.abspath(__file__), '../'))
 
 # tables from https://github.com/gmassei/SoilTexture (2021-08-04)
 
 # import tables
 def getTable(fname):
     # read file and extract number of classes
-    with open(fname, 'r') as f:
+    with open(os.path.join(apiPath, fname), 'r') as f:
         x = f.readlines()
     nbClasses = int(x[0])
 
