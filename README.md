@@ -1,6 +1,9 @@
 Soil texture classification
 ===========================
 
+How to install:
+**`pip install soiltexture`**
+
 Possible classifications:
 - USDA
 - FAO
