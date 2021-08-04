@@ -20,3 +20,6 @@ getTextures([13, 45], [50, 24], classification='FAO')
 
 Requirements:
 - matplotlib : to use the `path` module
+
+Source for the .dat file:
+https://github.com/gmassei/SoilTexture
