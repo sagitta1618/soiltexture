@@ -1,6 +1,8 @@
 Soil texture classification
 ===========================
 
+![PyPI - Downloads](https://img.shields.io/pypi/dm/soiltexture)
+
 How to install:
 **`pip install soiltexture`**
 
