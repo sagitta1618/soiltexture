@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="soiltexture",
-    version="1.0.1", # CHANGE HERE
+    version="1.0.4", # CHANGE HERE
     author="sagitta1618",
     description="Soil texture classification",
     long_description=long_description,
